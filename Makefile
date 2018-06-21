@@ -1,4 +1,5 @@
-CC = g++ -Wall -pedantic -ansi
+CC = g++ -Wall -pedantic -ansi -I /usr/include/glib-2.0/ -I /usr/lib/x86_64-linux-gnu/glib-2.0/include/ -I /usr/include/gtk-2.0/ -I /usr/include/cairo/ -I /usr/lib/x86_64-linux-gnu/gtk-2.0/include/ -I /usr/include/gdk-pixbuf-2.0/ -I /usr/include/pango-1.0/ -I /usr/include/libglade-2.0/
+
 
 default: palnet.o gtkmain.o palbubble.o palcallback.o gtkasset.o gtkbubble.o gtkbigpage.o palclient.o
 	$(CC) gtkmain.o palnet.o palcallback.o gtkbubble.o palbubble.o palclient.o gtkasset.o gtkbigpage.o -o linpal `curl-config --libs` `pkg-config --libs gtk+-2.0 libglade-2.0 glib-2.0 gthread-2.0`
