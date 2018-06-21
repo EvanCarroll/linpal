@@ -29,6 +29,8 @@
 #include "gtkasset.h"
 #include "gtkbubble.h"
 
+class GtkBubble;
+
 gpointer MyGet(gpointer local);
 gpointer BubbleWatcher(gpointer local);
 gpointer DLWatcher(gpointer local);
