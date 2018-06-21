@@ -1,0 +1,85 @@
+
+Changes since 0.4
+6 3 2004
+using thread joining instead of mutexes
+update glade files to use new gtk icons (like help/about)
+Thorough exploitation fixups in palnet
+	(that affectted all prior versions)
+Many buffer overflow vunerabilities fixed in bigpages
+Further gtkification.
+
+4 27 2004
+possibly fixed thread issues and random crashes when closing tabs
+
+4 12 2004
+Switched to gtk+-2.4 file chooser for saving log
+Using svg window icon
+
+1 24 2004
+Bubble placement bug fixed
+thought bubbles rendered better
+
+1 10 2004
+Bubbles moved to separate class
+Bubbles timed better
+Redrawing bubbles fixed
+z-order to graphics now.
+italic whispering in main chat window
+Bubble positioning a bit better
+Names have rouneded ends
+
+1 8 2004
+Now can download files from server.
+TODO reorganization
+Threads safer (not fully)
+Browsers now open in new thread
+
+1 7 2004
+RrRecvFile works
+
+1 5 2004
+RequestFile implemented.
+RrRecvFile started.
+
+1 4 2004
+Bug in connecting to wrong server fixed
+Bug in multiple connections that end before each other fixed
+Bad connections fixed and shown the result instead of disappearing.
+Better makefile
+Changes for other compilers in ListNodes
+
+Changes since 0.3
+
+12 20 2003
+Expressions can be changed (minus props)
+Rounded name tags
+
+12 19 2003
+Faces made
+Times added to log window
+
+12 17 2003
+Prop dialog changed to expression window
+expression window combines color, face, and avatar
+More console garbage clean up
+Refresh buttons added to user and room list windows
+Removal of filter in user and roomlists (for now)
+Wrap by character instead of word in log
+
+12 16 2003
+Color Callback
+
+12 15 2003
+Potential bug in user information props corrected
+Remove unnecessary console outputs
+Focuses newly connected tab
+Better separation of source into classes
+Population totals displayed
+No longer print name to console (bad characters etc...)
+Cleaned up gtk/glib errors
+
+Changes since 0.2
+
+12 13 2003
+0.3 version released!
+

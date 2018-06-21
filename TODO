@@ -1,0 +1,47 @@
+Topics sorted by importance, (top = first to do)
+
+ * SOON
+ * port to gtk/glib exclusively
+ * exclaim bubbles
+ * block bubbles
+ * sort rooms
+ * sort userlist
+ * multiple person whisper
+ * save prefs
+	 * restore preferences
+	 * auto connect to multiple palaces
+	 * text bubble delay in preferences
+
+ * EVENTUALLY
+ * press up for last said
+ * gray scale props
+ * misc prop flags
+ * prop animation
+ * 16/20 bit props
+ * REG Code
+ * paste prop
+ * tab and move with arrow keys
+ * use numpad for faces
+ * gaim style tab title coloring
+ * click on areas to navigate
+ * irc style commands (nick, me, disconnect/close, next, prev, quit,
+			new/connect, help, exec, msg)
+ * filter user/room list
+ * ipscra reading
+ * support all messages
+ * try to patch up any remaining buffer overflows
+
+ * IN AIR
+ * windows version
+ * bookmarks
+ * minimal view - (press F11) room/editbox only
+ * better url locating (only http:// and www are triggering)
+ * toolbar 
+ * prevent wrong way resizing
+ * detect and support apple remote encodings
+ * keyword log highlighting-xchat
+ * any seg faults message
+ * more effecient redrawing routines
+ * qt version
+ * text version
+ * as gaim plugin
